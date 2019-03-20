@@ -788,6 +788,49 @@
   font-size: 16px;
   line-height: 24px; }
 
+.site-alert {
+  border: 1px solid #E4292F;
+  overflow: auto; }
+
+.site-alert .header {
+  background-color: #E4292F;
+  height: 7px;
+  position: relative; }
+
+.site-alert .close {
+  background: transparent;
+  border: none;
+  position: absolute;
+  right: 16px;
+  top: 26px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='18px' height='18px' viewBox='0 0 18 18' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch --%3E%3Ctitle%3EIcon / Close X%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3Cpath d='M9,6.86167132 L15.4163809,0.445290378 C16.0112787,-0.149607368 16.9654911,-0.146457466 17.5559743,0.444025694 C18.1505742,1.03862559 18.1458912,1.99243743 17.5547096,2.58361906 L11.1383287,9 L17.5547096,15.4163809 C18.1458912,16.0075626 18.1505742,16.9613744 17.5559743,17.5559743 C16.9654911,18.1464575 16.0112787,18.1496074 15.4163809,17.5547096 L9,11.1383287 L2.58361906,17.5547096 C1.98872131,18.1496074 1.03450885,18.1464575 0.444025694,17.5559743 C-0.150574206,16.9613744 -0.145891248,16.0075626 0.445290378,15.4163809 L6.86167132,9 L0.445290378,2.58361906 C-0.145891248,1.99243743 -0.150574206,1.03862559 0.444025694,0.444025694 C1.03450885,-0.146457466 1.98872131,-0.149607368 2.58361906,0.445290378 L9,6.86167132 Z' id='path-1'%3E%3C/path%3E%3C/defs%3E%3Cg id='Symbols' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Alert-/-Alert-Dialog' transform='translate(-537.000000, -24.000000)'%3E%3Cg id='Icon-/-Close-X' transform='translate(534.000000, 21.000000)'%3E%3Crect id='Rectangle' x='0' y='0' width='24' height='24'%3E%3C/rect%3E%3Cg id='Group-2' stroke-width='1' fill-rule='evenodd' transform='translate(3.000000, 3.000000)'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cuse id='Combined-Shape' fill='%23009BDF' xlink:href='%23path-1'%3E%3C/use%3E%3Cg id='Color-/-Global-Grey---dark' mask='url(%23mask-2)' fill='%23515761'%3E%3Cg transform='translate(-3.000000, -3.000000)' id='color'%3E%3Crect x='0' y='0' width='24' height='24'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
+
+.site-alert .icon {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-bottom: 16px;
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='40px' height='40px' viewBox='0 0 40 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch --%3E%3Ctitle%3Eicon%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3C/defs%3E%3Cg id='Symbols' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Alert-/-Alert-Dialog' transform='translate(-15.000000, -24.000000)'%3E%3Cg id='icon' transform='translate(15.000000, 24.000000)'%3E%3Crect id='frame' x='0' y='0' width='40' height='40'%3E%3C/rect%3E%3Cg id='Icon-/-Alerts-Notifications-/-Error---light' fill='%23E4292F'%3E%3Cg id='error---light'%3E%3Cg id='Group-2'%3E%3Cpath d='M38.1995333,27.0811957 C38.1995333,27.2227076 38.1430086,27.3612325 38.044834,27.4598054 L27.3598665,38.1768861 C27.2598326,38.2776994 27.12633,38.3333333 26.9842744,38.3333333 L12.8780023,38.3333333 C12.7378061,38.3333333 12.6013285,38.2769526 12.5020384,38.1768861 L1.82227709,27.4579385 C1.72373065,27.3593655 1.6672059,27.2219609 1.6672059,27.0811957 L1.6672059,12.9154438 C1.6672059,12.7746787 1.72410253,12.6376474 1.82376459,12.5375809 L12.5035258,1.82162033 C12.6013285,1.72267401 12.7378061,1.66666667 12.8780023,1.66666667 L26.9842744,1.66666667 C27.12633,1.66666667 27.2598326,1.72230063 27.3602384,1.82311386 L38.0433465,12.5368342 C38.1426367,12.6369006 38.1995333,12.7746787 38.1995333,12.9154438 L38.1995333,27.0811957 Z M28.9100623,0.628535978 C28.5048659,0.223339537 27.9663324,0 27.3929831,0 L12.6025723,0 C12.0362603,0 11.4829116,0.229636008 11.0858635,0.628535978 L0.6300175,11.0847524 C0.229636008,11.4836523 0,12.0366306 0,12.6022019 L0,27.394835 C0,27.9611471 0.229265628,28.5141254 0.628165597,28.9115438 L11.084382,39.3699825 C11.4829116,39.7707344 12.0362603,40 12.6025723,40 L27.3929831,40 C27.9663324,40 28.5048659,39.7766605 28.9096919,39.371464 L39.3736863,28.9115438 C39.7718455,28.5126439 40,27.9596655 40,27.394835 L40,12.6022019 C40,12.0288527 39.7770308,11.4899488 39.3710936,11.0847524 L28.9100623,0.628535978 Z' id='Fill-1'%3E%3C/path%3E%3C/g%3E%3Cg id='Group-3' transform='translate(17.333333, 9.280002)'%3E%3Cpath d='M0.888888889,12.8857347 L0.888888889,2.01781001 C0.888888889,0.903404313 1.72280056,0 2.75148274,0 C3.78016493,0 4.6140766,0.903404313 4.6140766,2.01781001 L4.6140766,12.8857347 C4.6140766,14.0001404 3.78016493,14.9035447 2.75148274,14.9035447 C1.72280056,14.9035447 0.888888889,14.0001404 0.888888889,12.8857347 Z' id='Shape'%3E%3C/path%3E%3Cpath d='M2.76963954,21.1569087 C3.93852843,21.1569087 4.88608399,20.2093531 4.88608399,19.0404642 C4.88608399,17.8724642 3.93852843,16.9249087 2.76963954,16.9249087 C1.60075066,16.9249087 0.6531951,17.8724642 0.6531951,19.0404642 C0.6531951,20.2093531 1.60075066,21.1569087 2.76963954,21.1569087' id='Fill-8-Copy'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
+
+.site-alert .close:focus, .site-alert .close.focus {
+  box-shadow: 0px 0px 0px 2px white, 0px 0px 0px 4px #515761;
+  outline: 0; }
+
+.site-alert p {
+  font-size: 24px;
+  font-weight: 300;
+  padding: 0;
+  width: 400px;
+  margin: 6px 0 0 16px;
+  float: left; }
+
+.site-alert .body {
+  padding: 16px;
+  position: relative; }
+
 .bx--inline-notification {
   font-family: "ibm-plex-sans", Helvetica Neue, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -1200,7 +1243,8 @@
   color: #515761;
   display: inline-block;
   vertical-align: baseline;
-  margin-bottom: 8px; }
+  margin-bottom: 8px;
+  padding: 0; }
 
 .input-group {
   position: relative;
@@ -1691,6 +1735,176 @@ ul.submenu a:active {
   .table.table-striped tbody tr:nth-of-type(odd) {
     background-color: #ECECEC; }
 
+.pagination {
+  margin: 0;
+  padding: 0; }
+
+.pagination li {
+  display: inline-block;
+  text-align: center;
+  list-style-type: none; }
+  .pagination li.active {
+    background-color: #14568D; }
+    .pagination li.active a {
+      color: #fff; }
+  .pagination li .arrow-icon {
+    margin-top: 3px; }
+  .pagination li a {
+    color: #14568D;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 16px;
+    height: 32px;
+    width: 32px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    position: relative; }
+    .pagination li a:focus {
+      box-shadow: 0px 0px 0px 2px #fff, 0px 0px 0px 4px #14568D;
+      outline: 0;
+      z-index: 100; }
+    .pagination li a:hover {
+      background: #F1F9FD;
+      border: 1px solid #009BDF;
+      color: #14568D; }
+
+ul.breadcrumb {
+  padding: 8px 16px;
+  list-style: none; }
+
+ul.breadcrumb li {
+  display: inline;
+  font-weight: 500; }
+
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: #515761;
+  content: "\2022"; }
+
+ul.breadcrumb li a {
+  color: #14568D;
+  font-weight: 400; }
+  ul.breadcrumb li a:hover {
+    text-decoration: none; }
+  ul.breadcrumb li a:focus {
+    box-shadow: 0px 0px 0px 2px #14568D;
+    outline: 0;
+    border-radius: 3px; }
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 34px; }
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0; }
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #F8F8F9;
+  transition: .4s;
+  border-radius: 34px;
+  border: 1px solid #14568D; }
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 28px;
+  width: 28px;
+  left: 1px;
+  bottom: 1px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+  border: 1px solid #515761; }
+
+input:checked + .slider {
+  background-color: rgba(20, 86, 141, 0.7); }
+
+input:focus + .slider {
+  box-shadow: 0px 0px 0px 2px white, 0px 0px 0px 4px #14568D; }
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(36px);
+          transform: translateX(36px); }
+
+.dialog {
+  width: 500px;
+  overflow: auto;
+  background: #F8F8F9;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2); }
+  .dialog .dialog-header {
+    height: 8px;
+    position: relative; }
+  .dialog.alert .dialog-header {
+    background-color: #E4292F; }
+  .dialog.default .dialog-header {
+    height: 32px;
+    background-color: #14568D; }
+  .dialog .close {
+    background: transparent;
+    border: none;
+    position: absolute;
+    right: 16px;
+    top: 24px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer; }
+    .dialog .close.dark {
+      background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='14px' height='14px' viewBox='0 0 14 14' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com --%3E%3Ctitle%3EClose X%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cg id='4.-Components-' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='ESI_MDL_Agency---Alert-and-Message-Copy-2' transform='translate(-692.000000, -509.000000)' fill='%23515761'%3E%3Cg id='Alert-/-Dialog-/-Title-+-Message' transform='translate(155.000000, 484.000000)'%3E%3Cg id='Icon-/-Window-/-Close-X' transform='translate(536.000000, 24.000000)'%3E%3Cg id='icon'%3E%3Cpath d='M2.947768,1.61017464 L7.99703709,6.66774562 L13.0612017,1.6095807 C13.4175856,1.25361908 13.9950557,1.25396136 14.3510173,1.61034521 C14.3597667,1.61910495 14.3683368,1.62804193 14.3767222,1.63715062 L14.3767222,1.63715062 C14.7362267,2.02766026 14.7235648,2.63226878 14.3480264,3.00738496 L9.3518711,7.99792348 L14.3982381,13.0633361 C14.7569766,13.4234285 14.755879,14.006156 14.3957866,14.3648944 C14.3899117,14.3707472 14.383958,14.3765203 14.3779271,14.3822122 L14.3779271,14.3822122 C13.9948349,14.7437672 13.3937688,14.7354424 13.0208368,14.3634163 L7.99703709,9.35182019 L2.95574782,14.3902018 C2.58664714,14.7590896 1.98838928,14.758917 1.61950148,14.3898164 C1.61603837,14.3863513 1.61260227,14.3828593 1.60919347,14.3793407 L1.60919347,14.3793407 C1.23899098,13.9972182 1.24464366,13.3885173 1.62187882,13.0133359 L6.66206576,8.00058849 L1.61327815,2.95903913 C1.24172506,2.58801872 1.23989934,1.98647634 1.60919347,1.61320742 L1.60919347,1.61320742 C1.97571796,1.24273795 2.57316961,1.2395399 2.94363908,1.60606439 C2.94501961,1.60743022 2.94639593,1.60880031 2.947768,1.61017464 Z' id='🖍-Close-X-color'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
+    .dialog .close.light {
+      background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='14px' height='14px' viewBox='0 0 14 14' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com --%3E%3Ctitle%3EClose X%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cg id='4.-Components-' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='ESI_MDL_Agency---Alert-and-Message-Copy-2' transform='translate(-1298.000000, -297.000000)' fill='%23FFFFFF'%3E%3Cg id='Dialog-/-Title-+-Message' transform='translate(777.000000, 288.000000)'%3E%3Cg id='Icon-/-Window-/-Close-X' transform='translate(520.000000, 8.000000)'%3E%3Cg id='icon'%3E%3Cpath d='M2.947768,1.61017464 L7.99703709,6.66774562 L13.0612017,1.6095807 C13.4175856,1.25361908 13.9950557,1.25396136 14.3510173,1.61034521 C14.3597667,1.61910495 14.3683368,1.62804193 14.3767222,1.63715062 L14.3767222,1.63715062 C14.7362267,2.02766026 14.7235648,2.63226878 14.3480264,3.00738496 L9.3518711,7.99792348 L14.3982381,13.0633361 C14.7569766,13.4234285 14.755879,14.006156 14.3957866,14.3648944 C14.3899117,14.3707472 14.383958,14.3765203 14.3779271,14.3822122 L14.3779271,14.3822122 C13.9948349,14.7437672 13.3937688,14.7354424 13.0208368,14.3634163 L7.99703709,9.35182019 L2.95574782,14.3902018 C2.58664714,14.7590896 1.98838928,14.758917 1.61950148,14.3898164 C1.61603837,14.3863513 1.61260227,14.3828593 1.60919347,14.3793407 L1.60919347,14.3793407 C1.23899098,13.9972182 1.24464366,13.3885173 1.62187882,13.0133359 L6.66206576,8.00058849 L1.61327815,2.95903913 C1.24172506,2.58801872 1.23989934,1.98647634 1.60919347,1.61320742 L1.60919347,1.61320742 C1.97571796,1.24273795 2.57316961,1.2395399 2.94363908,1.60606439 C2.94501961,1.60743022 2.94639593,1.60880031 2.947768,1.61017464 Z' id='🖍-Close-X-color'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
+  .dialog .close:focus {
+    box-shadow: 0px 0px 0px 2px white, 0px 0px 0px 4px #515761;
+    outline: 0; }
+  .dialog.default .close {
+    top: 10px; }
+  .dialog.default .close:focus {
+    box-shadow: 0px 0px 0px 2px #14568D, 0px 0px 0px 4px white;
+    outline: 0; }
+  .dialog .alert.icon {
+    width: 40px;
+    height: 40px;
+    float: left;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='40px' height='40px' viewBox='0 0 40 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch --%3E%3Ctitle%3Eicon%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3C/defs%3E%3Cg id='Symbols' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Alert-/-Alert-Dialog' transform='translate(-15.000000, -24.000000)'%3E%3Cg id='icon' transform='translate(15.000000, 24.000000)'%3E%3Crect id='frame' x='0' y='0' width='40' height='40'%3E%3C/rect%3E%3Cg id='Icon-/-Alerts-Notifications-/-Error---light' fill='%23E4292F'%3E%3Cg id='error---light'%3E%3Cg id='Group-2'%3E%3Cpath d='M38.1995333,27.0811957 C38.1995333,27.2227076 38.1430086,27.3612325 38.044834,27.4598054 L27.3598665,38.1768861 C27.2598326,38.2776994 27.12633,38.3333333 26.9842744,38.3333333 L12.8780023,38.3333333 C12.7378061,38.3333333 12.6013285,38.2769526 12.5020384,38.1768861 L1.82227709,27.4579385 C1.72373065,27.3593655 1.6672059,27.2219609 1.6672059,27.0811957 L1.6672059,12.9154438 C1.6672059,12.7746787 1.72410253,12.6376474 1.82376459,12.5375809 L12.5035258,1.82162033 C12.6013285,1.72267401 12.7378061,1.66666667 12.8780023,1.66666667 L26.9842744,1.66666667 C27.12633,1.66666667 27.2598326,1.72230063 27.3602384,1.82311386 L38.0433465,12.5368342 C38.1426367,12.6369006 38.1995333,12.7746787 38.1995333,12.9154438 L38.1995333,27.0811957 Z M28.9100623,0.628535978 C28.5048659,0.223339537 27.9663324,0 27.3929831,0 L12.6025723,0 C12.0362603,0 11.4829116,0.229636008 11.0858635,0.628535978 L0.6300175,11.0847524 C0.229636008,11.4836523 0,12.0366306 0,12.6022019 L0,27.394835 C0,27.9611471 0.229265628,28.5141254 0.628165597,28.9115438 L11.084382,39.3699825 C11.4829116,39.7707344 12.0362603,40 12.6025723,40 L27.3929831,40 C27.9663324,40 28.5048659,39.7766605 28.9096919,39.371464 L39.3736863,28.9115438 C39.7718455,28.5126439 40,27.9596655 40,27.394835 L40,12.6022019 C40,12.0288527 39.7770308,11.4899488 39.3710936,11.0847524 L28.9100623,0.628535978 Z' id='Fill-1'%3E%3C/path%3E%3C/g%3E%3Cg id='Group-3' transform='translate(17.333333, 9.280002)'%3E%3Cpath d='M0.888888889,12.8857347 L0.888888889,2.01781001 C0.888888889,0.903404313 1.72280056,0 2.75148274,0 C3.78016493,0 4.6140766,0.903404313 4.6140766,2.01781001 L4.6140766,12.8857347 C4.6140766,14.0001404 3.78016493,14.9035447 2.75148274,14.9035447 C1.72280056,14.9035447 0.888888889,14.0001404 0.888888889,12.8857347 Z' id='Shape'%3E%3C/path%3E%3Cpath d='M2.76963954,21.1569087 C3.93852843,21.1569087 4.88608399,20.2093531 4.88608399,19.0404642 C4.88608399,17.8724642 3.93852843,16.9249087 2.76963954,16.9249087 C1.60075066,16.9249087 0.6531951,17.8724642 0.6531951,19.0404642 C0.6531951,20.2093531 1.60075066,21.1569087 2.76963954,21.1569087' id='Fill-8-Copy'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
+  .dialog .dialog-body {
+    padding: 32px;
+    position: relative;
+    overflow: auto; }
+    .dialog .dialog-body .dialog-body__container {
+      width: 380px;
+      margin-left: 16px;
+      float: left; }
+    .dialog .dialog-body h4 {
+      font-weight: 300;
+      font-size: 28px;
+      color: #515761;
+      letter-spacing: 0;
+      line-height: 32px;
+      margin: 0 0 8px;
+      padding: 0; }
+    .dialog .dialog-body p {
+      font-weight: 300;
+      font-size: 20px;
+      color: #515761;
+      letter-spacing: 0;
+      line-height: 24px;
+      padding: 0;
+      margin: 0; }
+  .dialog .dialog-footer {
+    text-align: center;
+    padding: 16px;
+    background: white;
+    clear: both; }
+
 .page {
   width: 1200px;
   min-height: 800px;
@@ -1840,51 +2054,6 @@ ul.submenu a:active {
     display: flex;
     flex-direction: row; }
 
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 70px;
-  height: 34px; }
-
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0; }
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #F8F8F9;
-  transition: .4s;
-  border-radius: 34px;
-  border: 1px solid #14568D; }
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 28px;
-  width: 28px;
-  left: 1px;
-  bottom: 1px;
-  background-color: white;
-  transition: .4s;
-  border-radius: 50%;
-  border: 1px solid #515761; }
-
-input:checked + .slider {
-  background-color: rgba(20, 86, 141, 0.7); }
-
-input:focus + .slider {
-  box-shadow: 0px 0px 0px 2px white, 0px 0px 0px 4px #14568D; }
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(36px);
-          transform: translateX(36px); }
-
 .overpanel {
   border: 1px solid #B9BCC0;
   width: 500px; }
@@ -1925,98 +2094,6 @@ input:checked + .slider:before {
 
 .overpanel .footer hr {
   border: 0.5px solid #B9BCC0; }
-
-.alert {
-  border: 1px solid #E4292F;
-  width: 500px;
-  overflow: auto; }
-
-.alert .header {
-  background-color: #E4292F;
-  height: 7px;
-  position: relative; }
-
-.alert .close {
-  background: transparent;
-  border: none;
-  position: absolute;
-  right: 16px;
-  top: 16px;
-  width: 18px;
-  height: 18px;
-  cursor: pointer;
-  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='18px' height='18px' viewBox='0 0 18 18' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch --%3E%3Ctitle%3EIcon / Close X%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3Cpath d='M9,6.86167132 L15.4163809,0.445290378 C16.0112787,-0.149607368 16.9654911,-0.146457466 17.5559743,0.444025694 C18.1505742,1.03862559 18.1458912,1.99243743 17.5547096,2.58361906 L11.1383287,9 L17.5547096,15.4163809 C18.1458912,16.0075626 18.1505742,16.9613744 17.5559743,17.5559743 C16.9654911,18.1464575 16.0112787,18.1496074 15.4163809,17.5547096 L9,11.1383287 L2.58361906,17.5547096 C1.98872131,18.1496074 1.03450885,18.1464575 0.444025694,17.5559743 C-0.150574206,16.9613744 -0.145891248,16.0075626 0.445290378,15.4163809 L6.86167132,9 L0.445290378,2.58361906 C-0.145891248,1.99243743 -0.150574206,1.03862559 0.444025694,0.444025694 C1.03450885,-0.146457466 1.98872131,-0.149607368 2.58361906,0.445290378 L9,6.86167132 Z' id='path-1'%3E%3C/path%3E%3C/defs%3E%3Cg id='Symbols' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Alert-/-Alert-Dialog' transform='translate(-537.000000, -24.000000)'%3E%3Cg id='Icon-/-Close-X' transform='translate(534.000000, 21.000000)'%3E%3Crect id='Rectangle' x='0' y='0' width='24' height='24'%3E%3C/rect%3E%3Cg id='Group-2' stroke-width='1' fill-rule='evenodd' transform='translate(3.000000, 3.000000)'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cuse id='Combined-Shape' fill='%23009BDF' xlink:href='%23path-1'%3E%3C/use%3E%3Cg id='Color-/-Global-Grey---dark' mask='url(%23mask-2)' fill='%23515761'%3E%3Cg transform='translate(-3.000000, -3.000000)' id='color'%3E%3Crect x='0' y='0' width='24' height='24'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
-
-.alert .icon {
-  width: 40px;
-  height: 40px;
-  float: left;
-  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='40px' height='40px' viewBox='0 0 40 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch --%3E%3Ctitle%3Eicon%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3C/defs%3E%3Cg id='Symbols' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Alert-/-Alert-Dialog' transform='translate(-15.000000, -24.000000)'%3E%3Cg id='icon' transform='translate(15.000000, 24.000000)'%3E%3Crect id='frame' x='0' y='0' width='40' height='40'%3E%3C/rect%3E%3Cg id='Icon-/-Alerts-Notifications-/-Error---light' fill='%23E4292F'%3E%3Cg id='error---light'%3E%3Cg id='Group-2'%3E%3Cpath d='M38.1995333,27.0811957 C38.1995333,27.2227076 38.1430086,27.3612325 38.044834,27.4598054 L27.3598665,38.1768861 C27.2598326,38.2776994 27.12633,38.3333333 26.9842744,38.3333333 L12.8780023,38.3333333 C12.7378061,38.3333333 12.6013285,38.2769526 12.5020384,38.1768861 L1.82227709,27.4579385 C1.72373065,27.3593655 1.6672059,27.2219609 1.6672059,27.0811957 L1.6672059,12.9154438 C1.6672059,12.7746787 1.72410253,12.6376474 1.82376459,12.5375809 L12.5035258,1.82162033 C12.6013285,1.72267401 12.7378061,1.66666667 12.8780023,1.66666667 L26.9842744,1.66666667 C27.12633,1.66666667 27.2598326,1.72230063 27.3602384,1.82311386 L38.0433465,12.5368342 C38.1426367,12.6369006 38.1995333,12.7746787 38.1995333,12.9154438 L38.1995333,27.0811957 Z M28.9100623,0.628535978 C28.5048659,0.223339537 27.9663324,0 27.3929831,0 L12.6025723,0 C12.0362603,0 11.4829116,0.229636008 11.0858635,0.628535978 L0.6300175,11.0847524 C0.229636008,11.4836523 0,12.0366306 0,12.6022019 L0,27.394835 C0,27.9611471 0.229265628,28.5141254 0.628165597,28.9115438 L11.084382,39.3699825 C11.4829116,39.7707344 12.0362603,40 12.6025723,40 L27.3929831,40 C27.9663324,40 28.5048659,39.7766605 28.9096919,39.371464 L39.3736863,28.9115438 C39.7718455,28.5126439 40,27.9596655 40,27.394835 L40,12.6022019 C40,12.0288527 39.7770308,11.4899488 39.3710936,11.0847524 L28.9100623,0.628535978 Z' id='Fill-1'%3E%3C/path%3E%3C/g%3E%3Cg id='Group-3' transform='translate(17.333333, 9.280002)'%3E%3Cpath d='M0.888888889,12.8857347 L0.888888889,2.01781001 C0.888888889,0.903404313 1.72280056,0 2.75148274,0 C3.78016493,0 4.6140766,0.903404313 4.6140766,2.01781001 L4.6140766,12.8857347 C4.6140766,14.0001404 3.78016493,14.9035447 2.75148274,14.9035447 C1.72280056,14.9035447 0.888888889,14.0001404 0.888888889,12.8857347 Z' id='Shape'%3E%3C/path%3E%3Cpath d='M2.76963954,21.1569087 C3.93852843,21.1569087 4.88608399,20.2093531 4.88608399,19.0404642 C4.88608399,17.8724642 3.93852843,16.9249087 2.76963954,16.9249087 C1.60075066,16.9249087 0.6531951,17.8724642 0.6531951,19.0404642 C0.6531951,20.2093531 1.60075066,21.1569087 2.76963954,21.1569087' id='Fill-8-Copy'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
-
-.alert .close:focus, .alert .close.focus {
-  box-shadow: 0px 0px 0px 2px white, 0px 0px 0px 4px #515761;
-  outline: 0; }
-
-.alert p {
-  font-size: 24px;
-  font-weight: 300;
-  padding: 0;
-  margin: 0;
-  width: 400px;
-  margin-left: 16px;
-  float: left; }
-
-.alert .body {
-  padding: 16px;
-  position: relative; }
-
-.alert .footer {
-  text-align: center;
-  padding: 32px 16px 16px 16px;
-  clear: both; }
-
-.site-alert {
-  border: 1px solid #E4292F;
-  overflow: auto; }
-
-.site-alert .header {
-  background-color: #E4292F;
-  height: 7px;
-  position: relative; }
-
-.site-alert .close {
-  background: transparent;
-  border: none;
-  position: absolute;
-  right: 16px;
-  top: 26px;
-  width: 18px;
-  height: 18px;
-  cursor: pointer;
-  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='18px' height='18px' viewBox='0 0 18 18' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch --%3E%3Ctitle%3EIcon / Close X%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3Cpath d='M9,6.86167132 L15.4163809,0.445290378 C16.0112787,-0.149607368 16.9654911,-0.146457466 17.5559743,0.444025694 C18.1505742,1.03862559 18.1458912,1.99243743 17.5547096,2.58361906 L11.1383287,9 L17.5547096,15.4163809 C18.1458912,16.0075626 18.1505742,16.9613744 17.5559743,17.5559743 C16.9654911,18.1464575 16.0112787,18.1496074 15.4163809,17.5547096 L9,11.1383287 L2.58361906,17.5547096 C1.98872131,18.1496074 1.03450885,18.1464575 0.444025694,17.5559743 C-0.150574206,16.9613744 -0.145891248,16.0075626 0.445290378,15.4163809 L6.86167132,9 L0.445290378,2.58361906 C-0.145891248,1.99243743 -0.150574206,1.03862559 0.444025694,0.444025694 C1.03450885,-0.146457466 1.98872131,-0.149607368 2.58361906,0.445290378 L9,6.86167132 Z' id='path-1'%3E%3C/path%3E%3C/defs%3E%3Cg id='Symbols' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Alert-/-Alert-Dialog' transform='translate(-537.000000, -24.000000)'%3E%3Cg id='Icon-/-Close-X' transform='translate(534.000000, 21.000000)'%3E%3Crect id='Rectangle' x='0' y='0' width='24' height='24'%3E%3C/rect%3E%3Cg id='Group-2' stroke-width='1' fill-rule='evenodd' transform='translate(3.000000, 3.000000)'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cuse id='Combined-Shape' fill='%23009BDF' xlink:href='%23path-1'%3E%3C/use%3E%3Cg id='Color-/-Global-Grey---dark' mask='url(%23mask-2)' fill='%23515761'%3E%3Cg transform='translate(-3.000000, -3.000000)' id='color'%3E%3Crect x='0' y='0' width='24' height='24'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
-
-.site-alert .icon {
-  width: 40px;
-  height: 40px;
-  float: left;
-  margin-bottom: 16px;
-  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='40px' height='40px' viewBox='0 0 40 40' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch --%3E%3Ctitle%3Eicon%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3C/defs%3E%3Cg id='Symbols' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Alert-/-Alert-Dialog' transform='translate(-15.000000, -24.000000)'%3E%3Cg id='icon' transform='translate(15.000000, 24.000000)'%3E%3Crect id='frame' x='0' y='0' width='40' height='40'%3E%3C/rect%3E%3Cg id='Icon-/-Alerts-Notifications-/-Error---light' fill='%23E4292F'%3E%3Cg id='error---light'%3E%3Cg id='Group-2'%3E%3Cpath d='M38.1995333,27.0811957 C38.1995333,27.2227076 38.1430086,27.3612325 38.044834,27.4598054 L27.3598665,38.1768861 C27.2598326,38.2776994 27.12633,38.3333333 26.9842744,38.3333333 L12.8780023,38.3333333 C12.7378061,38.3333333 12.6013285,38.2769526 12.5020384,38.1768861 L1.82227709,27.4579385 C1.72373065,27.3593655 1.6672059,27.2219609 1.6672059,27.0811957 L1.6672059,12.9154438 C1.6672059,12.7746787 1.72410253,12.6376474 1.82376459,12.5375809 L12.5035258,1.82162033 C12.6013285,1.72267401 12.7378061,1.66666667 12.8780023,1.66666667 L26.9842744,1.66666667 C27.12633,1.66666667 27.2598326,1.72230063 27.3602384,1.82311386 L38.0433465,12.5368342 C38.1426367,12.6369006 38.1995333,12.7746787 38.1995333,12.9154438 L38.1995333,27.0811957 Z M28.9100623,0.628535978 C28.5048659,0.223339537 27.9663324,0 27.3929831,0 L12.6025723,0 C12.0362603,0 11.4829116,0.229636008 11.0858635,0.628535978 L0.6300175,11.0847524 C0.229636008,11.4836523 0,12.0366306 0,12.6022019 L0,27.394835 C0,27.9611471 0.229265628,28.5141254 0.628165597,28.9115438 L11.084382,39.3699825 C11.4829116,39.7707344 12.0362603,40 12.6025723,40 L27.3929831,40 C27.9663324,40 28.5048659,39.7766605 28.9096919,39.371464 L39.3736863,28.9115438 C39.7718455,28.5126439 40,27.9596655 40,27.394835 L40,12.6022019 C40,12.0288527 39.7770308,11.4899488 39.3710936,11.0847524 L28.9100623,0.628535978 Z' id='Fill-1'%3E%3C/path%3E%3C/g%3E%3Cg id='Group-3' transform='translate(17.333333, 9.280002)'%3E%3Cpath d='M0.888888889,12.8857347 L0.888888889,2.01781001 C0.888888889,0.903404313 1.72280056,0 2.75148274,0 C3.78016493,0 4.6140766,0.903404313 4.6140766,2.01781001 L4.6140766,12.8857347 C4.6140766,14.0001404 3.78016493,14.9035447 2.75148274,14.9035447 C1.72280056,14.9035447 0.888888889,14.0001404 0.888888889,12.8857347 Z' id='Shape'%3E%3C/path%3E%3Cpath d='M2.76963954,21.1569087 C3.93852843,21.1569087 4.88608399,20.2093531 4.88608399,19.0404642 C4.88608399,17.8724642 3.93852843,16.9249087 2.76963954,16.9249087 C1.60075066,16.9249087 0.6531951,17.8724642 0.6531951,19.0404642 C0.6531951,20.2093531 1.60075066,21.1569087 2.76963954,21.1569087' id='Fill-8-Copy'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
-
-.site-alert .close:focus, .site-alert .close.focus {
-  box-shadow: 0px 0px 0px 2px white, 0px 0px 0px 4px #515761;
-  outline: 0; }
-
-.site-alert p {
-  font-size: 24px;
-  font-weight: 300;
-  padding: 0;
-  width: 400px;
-  margin: 6px 0 0 16px;
-  float: left; }
-
-.site-alert .body {
-  padding: 16px;
-  position: relative; }
 
 .nav {
   background: #14568D;
