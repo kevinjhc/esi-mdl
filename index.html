@@ -9,30 +9,21 @@
 </head>
 
 <style>
-
-body {
-
-	background-image: url('grunge_patterns.jpg');
-	background-attachment: fixed;
-	color: #333;
+* {
+	box-sizing: border-box;
 }
-
 .box {
-	border-radius: 3px;
-	background: rgba(101, 101, 101, 0.7); margin: auto; padding: 12px;
+	margin: auto;
 }
 
 .lightbox {
-	zoom: 1.5;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(10, 10, 10, 0.8);
 	text-align: center;
 	margin: auto;
-
 }
 
 div.horizontal {
@@ -48,19 +39,53 @@ div.vertical {
 	width: 100%;
 }
 
-::-webkit-input-placeholder {
-   color: #955;
-   text-align: center;
+/* Buttons */
+.btn {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: 500;
+  padding: 14px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-in;
+  line-height: 16px;
+  border: 0;
+  border-radius: 4px;
+	color: #fff;
+  background: #009BDF;
+  background-image: linear-gradient(-180deg, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.10) 100%);
 }
 
-::-moz-placeholder {
-   color: #955;
-   text-align: center;
+.btn:focus {
+  outline: 0;
+  box-shadow: 0px 0px 0px 2px white, 0px 0px 0px 4px #14568D;
 }
 
-:-ms-input-placeholder {
-   color: #955;
-   text-align: center;
+.text-input {
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  height: 48px;
+  padding: 0 1rem;
+  color: #152935;
+  background-color: #ffffff;
+  border: none;
+  -ms-flex-order: 2;
+  order: 2;
+  border: 1px solid #515761;
+  border-radius: 3px;
+  transition: all 0.2s;
+  box-shadow: 0 0 5px 2px rgba(0,0,0,0.10);
+}
+
+.text-input:focus, .text-input:hover {
+  outline: none;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #4378A4;
+  border: 1px solid #4378A4;
 }
 
 </style>
@@ -71,9 +96,10 @@ div.vertical {
 		<div class="horizontal">
 			<div class="vertical">
 				<div class="box">
-					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="password" /> <br />
-					<button id="loginbutton" type="button">Enter</button>
-					<p id="wrongPassword" style="display: none">wrong password</p>
+					<input class="text-input" id="password" type="password" placeholder="Password" />
+					<br />
+					<button id="loginbutton" type="button" class="btn">Enter</button>
+					<p id="wrongPassword" style="display: none">Wrong Password</p>
 				</div>
 			</div>
 		</div>
